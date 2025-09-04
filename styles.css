@@ -1,0 +1,173 @@
+/*for universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #2c3e50; 
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header a {
+  color: #ecf0f1; 
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #f39c12; 
+}
+/* she section */
+.she {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 10%;
+  background: linear-gradient(to right, #f39c12, #f1c40f);
+  color: #fff;
+}
+
+.she-text h1 {
+  font-size: 2rem;
+}
+
+.she-subtitle {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.she-description {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #2c3e50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #34495e;
+}
+
+.orchita-image img {
+  max-width: 300px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+/*about section*/
+.about {
+  padding: 3rem 10%;
+  background: #ecf0f1;
+  color: #2c3e50;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  color: #e67e22;
+}
+/*skills section*/
+.skills {
+  padding: 3rem 10%;
+  background: #fff;
+  color: #2c3e50;
+}
+
+.skills h2 {
+  margin-bottom: 1rem;
+  color: #27ae60;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.skill-item {
+  background: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  transition: transform 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  background: #d5dbdb;
+}
+/*contact section*/
+.contact {
+  padding: 3rem 10%;
+  background: #f9f9f9;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+  color: #2980b9;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.btn {
+  background: #2980b9;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background: #1f5a85;
+}
+/*footer section*/
+.footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
